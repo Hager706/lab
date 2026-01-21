@@ -12,3 +12,9 @@ jobs:
     steps:
       - name: print welcome 
         run: echo  "welcome"
+
+      - name: checkout
+        uses: actions/checkout@v6.0.2
+
+      - name: list repos
+        run: ls -la
