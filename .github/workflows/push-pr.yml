@@ -4,13 +4,12 @@ on:
                   - main
                   - "release/**"
             paths:
-                  - 'GitHub Action/**'
+                  - 'src/**'
 
       pull_request:
             branches:
                   - main
-            paths:
-                  - 'lab/**'
+                  - "release/**"
 
 jobs:
       build:
